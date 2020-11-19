@@ -38,7 +38,6 @@ names(final.gam) <- c("actual", "predicted")
 cFM(final.gam) # See Rmd for the confusion matrix function I wrote
 ```
 
-## Visualization
 ![Confusion matrix for best stepwise GAM model](GAM.ConfusionMat.png)
 
 The stepwise GAM model manages to keep the number of false negatives low without sacrificing much in the way of the overall error rate.
