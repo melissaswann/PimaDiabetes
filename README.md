@@ -40,7 +40,7 @@ cFM(final.gam) # See Rmd for the confusion matrix function I wrote
 
 ![Confusion matrix for best stepwise GAM model](GAM.ConfusionMat.png)
 
-The stepwise GAM model manages to keep the number of false negatives low without sacrificing much in the way of the overall error rate.
+The stepwise GAM model manages to keep the number of false negatives low without sacrificing much in the way of the overall error rate, making it the best performing model, given our desire to balance accuracy and the minimization of Type II errors.
 
 ## Next Steps
 To start, I would like to make use of AUC values and ROC plots to back up my decisions regarding the best cut off levels. More generally, I would like to expand the scope of these models to predict diabetes in wider populations than just the population of Pima women.
