@@ -39,11 +39,12 @@ cFM(final.gam) # See Rmd for the confusion matrix function I wrote
 ```
 
 ## Visualization
-![Confusion matrix for best stepwise GAM model](Pima.Images/Pima.ConfusionMat.png)
+![Confusion matrix for best stepwise GAM model](Pima.ConfusionMat.png)
 
+The stepwise GAM model manages to keep the number of false negatives low without sacrificing much in the way of the overall error rate.
 
 ## Next Steps
-To start, I would like to make use of AUC and ROC curves to back up my decisions regarding the model cut offs. More generally, I would like to expand the scope of these models to predict diabetes in wider populations than just the population of Pima women.
+To start, I would like to make use of AUC values and ROC plots to back up my decisions regarding the best cut off levels. More generally, I would like to expand the scope of these models to predict diabetes in wider populations than just the population of Pima women.
 
 ## Collaborators
 Selin Gumustop, Williams College Class of 2020
